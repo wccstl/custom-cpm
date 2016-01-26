@@ -33,5 +33,69 @@ float: none;
 margin-bottom: 25px;
 }
 }
+/* Let me try this */
+a:focus {
+    outline-color: #669900;
+}
+header #nav li a:hover {
+    color: #669900;
+}
+header #nav li.current a {
+    color: #669900;
+}
+#quicklinks {
+    background: #669900;
+}
+#widgets h4 a {
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    -ms-transition: color 0.1s linear;
+    -o-transition: color 0.1s linear;
+    transition: color 0.1s linear;
+    color: #669900;
+}
+#side_nav li a:hover {
+    color: #669900;
+}
+#side_nav ul li.current a {
+    color: #669900;
+}
+#side_nav ul li.current li a:hover {
+    color: #669900;
+}
+#side_nav ul li.current li.current a {
+    color: #669900;
+}
+#side_nav .side_nav_level1 li.current {
+    position: relative;
+    border-bottom: 3px solid #669900;
+}
+#side_nav .side_nav_level1 li.current:before {
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: -28px;
+    position: absolute;
+    background-color: #669900;
+}
+footer .footer-nav a {
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    -ms-transition: color 0.1s linear;
+    -o-transition: color 0.1s linear;
+    transition: color 0.1s linear;
+    color: #669900;
+}
+.cms-output input[type="text"]:focus,
+.comment-form input:focus,
+textarea:focus {
+    box-shadow: 0px 0px 4px #66cc00;
+}
+#widgets h4 a:hover {
+    color: #66cc00;
+}
+footer .footer-nav a:hover {
+    color: #66cc00;
+}
 /* END CSS Overrides by Elliot J. Voris */
 /* evoris@wccstl.org */
