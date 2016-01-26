@@ -17,3 +17,21 @@ background: url(http://s3.amazonaws.com/churchplantmedia-cms/z2_wildwood_christi
 background-size: 232px auto;
 }
 }
+
+/* BEGIN CSS Overrides by Elliot J. Voris */
+/* evoris@wccstl.org */
+@media
+(max-width: 865px) {
+footer .footer-nav ul {
+display: inline-block;
+width: 100%;
+text-align: center;
+}
+footer .footer-nav ul li {
+display: inline-block;
+float: none;
+margin-bottom: 25px;
+}
+}
+/* END CSS Overrides by Elliot J. Voris */
+/* evoris@wccstl.org */
