@@ -1,0 +1,19 @@
+header .logo {
+    background: url(http://s3.amazonaws.com/churchplantmedia-cms/z2_wildwood_christian_church/logo.png) no-repeat 0 0;
+}
+
+header .logo {
+    width: 232px;
+    height: 80px;
+    display: block;
+    position: relative;
+    top: 13px;
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+header .logo {
+background: url(http://s3.amazonaws.com/churchplantmedia-cms/z2_wildwood_christian_church/logo-ret.png) no-repeat 0 0;
+background-size: 232px auto;
+}
+}
