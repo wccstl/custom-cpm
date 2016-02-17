@@ -1,20 +1,20 @@
 header .logo {
-    background: url(http://s3.amazonaws.com/churchplantmedia-cms/z2_wildwood_christian_church/logo.png) no-repeat 0 0;
+  background: url(http://s3.amazonaws.com/churchplantmedia-cms/z2_wildwood_christian_church/logo.png) no-repeat 0 0;
 }
 
 header .logo {
-    width: 232px;
-    height: 80px;
-    display: block;
-    position: relative;
-    top: 13px;
+  width: 232px;
+  height: 80px;
+  display: block;
+  position: relative;
+  top: 13px;
 }
 
 @media
 (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-header .logo {
-background: url(http://s3.amazonaws.com/churchplantmedia-cms/z2_wildwood_christian_church/logo-ret.png) no-repeat 0 0;
-background-size: 232px auto;
+  header .logo {
+  background: url(http://s3.amazonaws.com/churchplantmedia-cms/z2_wildwood_christian_church/logo-ret.png) no-repeat 0 0;
+  background-size: 232px auto;
 }
 }
 
@@ -22,80 +22,119 @@ background-size: 232px auto;
 /* evoris@wccstl.org */
 @media
 (max-width: 865px) {
-footer .footer-nav ul {
-display: inline-block;
-width: 100%;
-text-align: center;
+  footer .footer-nav ul {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 footer .footer-nav ul li {
-display: inline-block;
-float: none;
-margin-bottom: 25px;
+  display: inline-block;
+  float: none;
+  margin-bottom: 25px;
 }
 }
-/* Let me try this */
+/* Let me try these colors */
 a:focus {
-    outline-color: #669900;
+  outline-color: #669900;
 }
 header #nav li a:hover {
-    color: #669900;
+  color: #669900;
 }
 header #nav li.current a {
-    color: #669900;
+  color: #669900;
 }
 #quicklinks {
-    background: #669900;
+  background: #669900;
 }
 #widgets h4 a {
-    -webkit-transition: color 0.1s linear;
-    -moz-transition: color 0.1s linear;
-    -ms-transition: color 0.1s linear;
-    -o-transition: color 0.1s linear;
-    transition: color 0.1s linear;
-    color: #669900;
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -ms-transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  color: #669900;
 }
 #side_nav li a:hover {
-    color: #669900;
+  color: #669900;
 }
 #side_nav ul li.current a {
-    color: #669900;
+  color: #669900;
 }
 #side_nav ul li.current li a:hover {
-    color: #669900;
+  color: #669900;
 }
 #side_nav ul li.current li.current a {
-    color: #669900;
+  color: #669900;
 }
 #side_nav .side_nav_level1 li.current {
-    position: relative;
-    border-bottom: 3px solid #669900;
+  position: relative;
+  border-bottom: 3px solid #669900;
 }
 #side_nav .side_nav_level1 li.current:before {
-    content: "";
-    width: 100%;
-    height: 3px;
-    top: -28px;
-    position: absolute;
-    background-color: #669900;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: -28px;
+  position: absolute;
+  background-color: #669900;
 }
 footer .footer-nav a {
-    -webkit-transition: color 0.1s linear;
-    -moz-transition: color 0.1s linear;
-    -ms-transition: color 0.1s linear;
-    -o-transition: color 0.1s linear;
-    transition: color 0.1s linear;
-    color: #669900;
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -ms-transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  color: #669900;
 }
 .cms-output input[type="text"]:focus,
 .comment-form input:focus,
 textarea:focus {
-    box-shadow: 0px 0px 4px #66cc00;
+  box-shadow: 0px 0px 4px #66cc00;
 }
 #widgets h4 a:hover {
-    color: #66cc00;
+  color: #66cc00;
 }
 footer .footer-nav a:hover {
-    color: #66cc00;
+  color: #66cc00;
+}
+/* End color adjustments */
+a.fancy-button {
+  background: #eb5e42;
+  color: #f3f3f3;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  display: inline-block;
+  text-decoration: none !important;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  font-family: "minion-pro", serif;
+  font-weight: 400;
+  font-size: 19px;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  padding: 18px 30px;
+}
+a.fancy-button:hover {
+  background: #f08570;
+  background-color: #e23918;
+  color: #fff;
 }
 /* END CSS Overrides by Elliot J. Voris */
 /* evoris@wccstl.org */
