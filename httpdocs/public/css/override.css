@@ -1,13 +1,13 @@
 header .logo {
-    background: url(http://s3.amazonaws.com/churchplantmedia-cms/z2_wildwood_christian_church/logo.png) no-repeat 0 0;
+  background: url(http://s3.amazonaws.com/churchplantmedia-cms/z2_wildwood_christian_church/logo.png) no-repeat 0 0;
 }
 
 header .logo {
-    width: 232px;
-    height: 80px;
-    display: block;
-    position: relative;
-    top: 13px;
+  width: 232px;
+  height: 80px;
+  display: block;
+  position: relative;
+  top: 13px;
 }
 
 @media
@@ -22,16 +22,54 @@ background-size: 232px auto;
 /* evoris@wccstl.org */
 @media
 (max-width: 865px) {
-footer .footer-nav ul {
-display: inline-block;
-width: 100%;
-text-align: center;
+  footer .footer-nav ul {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 footer .footer-nav ul li {
-display: inline-block;
-float: none;
-margin-bottom: 25px;
+  display: inline-block;
+  float: none;
+  margin-bottom: 25px;
 }
+}
+a.fancy-button {
+  background: #eb5e42;
+  color: #f3f3f3;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  display: inline-block;
+  text-decoration: none !important;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  font-family: "minion-pro", serif;
+  font-weight: 400;
+  font-size: 19px;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  padding: 18px 30px;
+}
+a.fancy-button:hover {
+  background: #f08570;
+  background-color: #e23918;
+  color: #fff;
 }
 /* END CSS Overrides by Elliot J. Voris */
 /* evoris@wccstl.org */
