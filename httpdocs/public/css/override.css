@@ -136,5 +136,9 @@ a.fancy-button:hover {
   background-color: #e23918;
   color: #fff;
 }
+a.blog-widget-more-link,
+a.events-widget-more-link {
+  width: 85%;
+}
 /* END CSS Overrides by Elliot J. Voris */
 /* evoris@wccstl.org */
