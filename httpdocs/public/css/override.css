@@ -46,6 +46,13 @@ header #nav li.current a {
 #quicklinks {
   background: #669900;
 }
+#wcc-highlights-video {
+  background: #fbfbfb url(http://80.cpmassets.com/img/c/header-bg.jpg);
+  width: 100%;
+}
+#wcc-highlights-video .wrapper {
+  padding: 30px 0;
+}
 #widgets h4 a {
   -webkit-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;

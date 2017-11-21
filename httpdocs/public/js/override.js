@@ -1,6 +1,18 @@
 $('.blog-widget').append('<a class="fancy-button blog-widget-more-link" href="/announcements">More Announcements</a>');
 $('.events-widget').append('<a class="fancy-button events-widget-more-link" href="/events">More Events</a>');
 
+if ( window.location.pathname == '/' ) {
+  $('<div/>', {
+    id: 'wcc-highlights-video'
+  }).insertBefore('#widgets');
+  $('<div/>', {
+    "class": 'wrapper'
+  }).append(
+    '<iframe src="https://player.vimeo.com/video/243875613?color=c9ff23&title=0&byline=0&portrait=0" width="1306" height="735" frameborder="0" allowfullscreen=""></iframe>'
+  ).appendTo('#wcc-highlights-video');
+  $('<!-- #wcc-highlights-video -->').insertBefore('#widgets');
+}
+
 // Look for published weather alert page. Add a corresponding slider element on the homepage.
 /*if ( window.location.pathname == '/' ) {
   var firstUrl = 'http://www.wccstl.org/weather-alert-first-service-cancelled';
