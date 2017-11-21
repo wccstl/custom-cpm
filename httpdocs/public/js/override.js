@@ -2,7 +2,7 @@ $('.blog-widget').append('<a class="fancy-button blog-widget-more-link" href="/a
 $('.events-widget').append('<a class="fancy-button events-widget-more-link" href="/events">More Events</a>');
 
 // Look for published weather alert page. Add a corresponding slider element on the homepage.
-if ( window.location.pathname == '/' ) {
+/*if ( window.location.pathname == '/' ) {
   var firstUrl = 'http://www.wccstl.org/weather-alert-first-service-cancelled';
   var firstPic = 'http://s3.amazonaws.com/churchplantmedia-cms/wildwood_christian_church/cancel-first-service.jpg';
   var secondUrl = 'http://www.wccstl.org/weather-alert-second-service-cancelled';
@@ -38,3 +38,4 @@ if ( window.location.pathname == '/' ) {
     AddSlickSlide(secondPic);
   }
 }
+*/
