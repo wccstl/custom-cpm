@@ -147,5 +147,11 @@ a.blog-widget-more-link,
 a.events-widget-more-link {
   width: 85%;
 }
+div#cpm_video_2213,
+div#cpm_video_2213_html5_api {
+  width: 100% !important;
+  height: initial !important;
+  aspect-ratio: 16/9;
+}
 /* END CSS Overrides by Elliot J. Voris */
 /* evoris@wccstl.org */
